@@ -30,9 +30,9 @@ It is a query parameters example. It uses `get` action and receives a parameter 
 
 More information, check fastapi doc links : https://fastapi.tiangolo.com/tutorial/query-params/
 
-### 4 - query parameters
+### 4 - request body
 
-It is a query parameters example. It uses `get` action and receives a parameter that  is sended by client.
+It is a post action example. It declares request body via pydantic
 
 
-More information, check fastapi doc links : https://fastapi.tiangolo.com/tutorial/query-params/
+More information, check fastapi doc links : https://fastapi.tiangolo.com/tutorial/body/
