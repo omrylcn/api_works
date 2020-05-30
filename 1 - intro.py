@@ -6,13 +6,13 @@ app=FastAPI()
 
 @app.get("/")
 def run_item():
-    return {"deneme":"merhana"}
+    return {"test":"merhaba"}
 
 if __name__=="__main__":
     uvicorn.run(app,port=8000)
 
-# go  http://127.0.0.1:8000/docs
-# alternative http://127.0.0.1:8000/redoc
+# go  http://127.0.0.1:5000/docs
+# alternative http://127.0.0.1:5000/redoc
 
 # 
 """

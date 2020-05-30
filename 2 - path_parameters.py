@@ -21,4 +21,4 @@ if __name__ =="__main__":
 
 
 # The value of the path parameter arg_id will be passed to your function as the argument item_id.
-# go to  http://127.0.0.1:8000/items/foo
+# go to  http://127.0.0.1:5000/items/foo
