@@ -11,14 +11,28 @@ It contains  my personal FastAPI works
 
 ## Content 
 
-### 1 - intro.py
+### 1 - intro 
 A simple api example, only contains `get` action . It is return basic map object.
 
 More information, check fastapi doc links: https://fastapi.tiangolo.com/tutorial/first-steps/
 
-### 2 - path_parameters.py
+### 2 - path parameters
 
 It is a path parameters example. It uses `get` action and receives a parameter that  is sended by client.
 
 
 More information, check fastapi doc links : https://fastapi.tiangolo.com/tutorial/path-params/
+
+### 3 - query parameters
+
+It is a query parameters example. It uses `get` action and receives a parameter that  is sended by client.
+
+
+More information, check fastapi doc links : https://fastapi.tiangolo.com/tutorial/query-params/
+
+### 4 - query parameters
+
+It is a query parameters example. It uses `get` action and receives a parameter that  is sended by client.
+
+
+More information, check fastapi doc links : https://fastapi.tiangolo.com/tutorial/query-params/
