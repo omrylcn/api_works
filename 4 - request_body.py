@@ -15,9 +15,10 @@ i = None
 
 @app.post("/post_items/")
 def create_item(item:dict):
-    global i
-    i=item
-    print("deneme") 
+    return item
+
+@app.post("/custom_items/")
+def create_custom_item(item:Item):
     return item
 
 @app.get("/get_items/")

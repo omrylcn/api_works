@@ -5,8 +5,10 @@ app=FastAPI()
 
 
 @app.post("/login/")
-def login(*, username: str = Form(...), password: str = Form(...)):
-    return {"username": username}
+def login(*, username: str = Form(...), password: int = Form(...)):
+    
+    new_password=100+password
+    return {"username": username,"new_pasword":new_password}
 
 
 if __name__=="__main__":

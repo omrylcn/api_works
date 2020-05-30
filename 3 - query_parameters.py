@@ -14,7 +14,7 @@ fake_items_db = [{"item_name": "Foo"},
 
 
 @app.get("/items/")
-async def read_item(skip:int=10):
+def read_item(skip:int=20):
     return skip
 
 if __name__ =="__main__":

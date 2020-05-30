@@ -4,6 +4,7 @@
 
 from fastapi import FastAPI, File, UploadFile
 import uvicorn 
+import io
 from PIL import Image
 
 
@@ -13,15 +14,19 @@ app = FastAPI(reload=True,debug=True)
 
 @app.post("/files/")
 def create_file(file: bytes = File(...)):
+
+    a=file
+    print(type(a))
+    a=print(a)
+    image = Image.open(io.BytesIO(a))
+    image.show()
     return {"file_size": len(file)}
 
 
 @app.post("/uploadfile/")
 def create_upload_file(file: UploadFile = File(...)):
     a=file.file
-    #print(a.read())
     i=Image.open(a)
-    
     i.show()
     print(type(i))
     return file.filename#{"filename": file.filename}

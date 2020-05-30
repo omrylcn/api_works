@@ -9,7 +9,7 @@ def run_item():
     return {"test":"merhaba"}
 
 if __name__=="__main__":
-    uvicorn.run(app,port=8000)
+    uvicorn.run(app,port=5000)
 
 # go  http://127.0.0.1:5000/docs
 # alternative http://127.0.0.1:5000/redoc
