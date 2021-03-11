@@ -2,4 +2,8 @@
 /ex
 /flask_api/api_env
 
+/flask_api/restfull/model/__pycache__
+/flask_api/restfull/resource/__pycache__
+
+
 trial.py
