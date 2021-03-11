@@ -1,3 +1,5 @@
 /.vscode
 /ex
 /flask_api/api_env
+
+trial.py
